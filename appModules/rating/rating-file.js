@@ -1,6 +1,5 @@
-const fs = require("fs");
-const { title } = require("process");
-async function makeRatingFile(parh, array) {
+const fs = require("fs").promises;
+async function makeRatingFile(path, array) {
     const ratingFile = await fs.readFile(path, "utf8");
 
     const ratingArray = JSON.parse(ratingFile);
@@ -18,7 +17,7 @@ async function makeRatingFile(parh, array) {
         ratingArray.push(obj)
     }
     });
-    fs.watchFile(path, JSON.stringify(ratingArray), () => {
+    fs.writeFile(path, JSON.stringify(ratingArray), () => {
         console.log("Файл записан!")
     }); 
 }

@@ -6,7 +6,6 @@ async function getData(url) {
         console.log(error);
     }
 }
-module.exports = { getData}
 
 function getRandomGame(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
