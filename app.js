@@ -1,11 +1,10 @@
 const http = require('http');
-const path = require('path');
+// const path = require('path');
 const {
     mainRouteController,
     defaultRouteController,
     gameRouteController,
     voteRouteController,
-    
 } = require("./controllers")
 
 const PORT = 3005;
@@ -19,7 +18,7 @@ const server = http.createServer((req, res) => {
           case "/game":
           gameRouteController(res);
             break;
-            case "./vote":
+            case "/vote":
                 voteRouteController(req, res);
             break
               default:
