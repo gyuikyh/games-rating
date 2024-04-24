@@ -1,0 +1,19 @@
+[
+    {
+      "id": 5,
+      "title": "G.U.N.N.E.R.",
+      "image": "https://code.s3.yandex.net/teens/pindie-games/gunner/cover.png",
+      "link": "https://code.s3.yandex.net/teens/pindie-games/gunner/game/index.html",
+      "description": "Продержись как можно дольше, отбиваясь от врагов, которых будет становиться всё больше.",
+      "rating": 0
+    },
+    {
+        "id": 3,
+        "title": "Defence of Crystal",
+        "image": "https://code.s3.yandex.net/teens/pindie-games/defence-of-crystal/cover.png",
+        "link": "https://code.s3.yandex.net/teens/pindie-games/defence-of-crystal/game/index.html",
+        "description": "Защитить магические кристалы от монстров и уничтожай кладбища, чтобы спасти землю, коорую поглатил мрак",
+        "rating": 0
+    }
+  ] 
+  
